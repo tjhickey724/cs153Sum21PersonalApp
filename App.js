@@ -7,7 +7,7 @@ import Profile from './components/Profile'
 import Todo from './components/ToDo'
 import TodoList from './components/ToDoList'
 import {  Text,  View } from "react-native";
-
+// Belle Scott Here
 export default function App() {
     return (
           <TodoList />
