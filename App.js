@@ -7,7 +7,11 @@ import Profile from './components/Profile'
 import Todo from './components/ToDo'
 import TodoList from './components/ToDoList'
 import {  Text,  View } from "react-native";
-// Authors: Tim Hickey and Belle Scott on 6/16/21 SIKEEEEEEEEE Im messing it up again
+/*
+  Demo App for CS153 Sum21
+  Instructor: Tim Hickey
+  Teaching Assistant: Belle Scott
+*/
 export default function App() {
     return (
           <TodoList />
