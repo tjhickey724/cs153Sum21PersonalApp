@@ -13,6 +13,10 @@ import TipScreen from './components/TipScreen'
 
 import CameraDemo from './components/CameraDemo'
 
+import ToDoList from './components/ToDoList'
+
+import APIkey from './components/APIkey'
+
 import ListDemoScreen from './components/ListDemoScreen'
 
 
@@ -43,7 +47,11 @@ const MyStack = () => {
 
         <Stack.Screen name="listscreen" component={ListDemoScreen} />
 
+        <Stack.Screen name="todolist" component={ToDoList} />
+
         <Stack.Screen name="camerademo" component={CameraDemo} />
+
+        <Stack.Screen name="apikey" component={APIkey} />
 
       </Stack.Navigator>
     </NavigationContainer>
@@ -65,6 +73,20 @@ const HomeScreen = ({ navigation }) => {
         color="red"
         onPress={() =>
           navigation.navigate('Profile', { name: 'Belle' })
+        }
+      />
+      <Button
+        title="ToDoList"
+        color="red"
+        onPress={() =>
+          navigation.navigate('todolist')
+        }
+      />
+      <Button
+        title="APIkey demo"
+        color="brown"
+        onPress={() =>
+          navigation.navigate('apikey')
         }
       />
       <Button

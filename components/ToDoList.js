@@ -160,13 +160,13 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection:'column',
     backgroundColor: '#eee',
-    justifyContent: 'left',
+    justifyContent: 'center',
     textAlign:'left',
     marginTop:20,
     padding:20,
   },
   todoItem:{
-    justifyContent:'left',
+    justifyContent:'center',
   },
   headerText: {
     textAlign:'center',
