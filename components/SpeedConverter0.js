@@ -25,7 +25,7 @@ const SpeedConverter0 = (props) => {
         <TextInput
           style={styles.textinput}
           onChangeText={text => {setMph(text)}}
-          value={mph}
+          value={mph.toString()}
           />
       </View>
       <View style={styles.rowContainer}>
@@ -33,7 +33,7 @@ const SpeedConverter0 = (props) => {
         <TextInput
           style={styles.textinput}
           onChangeText={text => {setFps(text)}}
-          value = {fps}
+          value = {fps.toString()}
           />
       </View>
       <View style={styles.rowContainer}>

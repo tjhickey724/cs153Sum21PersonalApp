@@ -150,7 +150,7 @@ const ToDoList = (props) => {
         renderItem={renderTodoItem}
         keyExtractor={item => item.date}
       />
-      {debug?debugView: ""}
+      {debug?debugView: <Text>""</Text>}
     </View>
   );
 }
