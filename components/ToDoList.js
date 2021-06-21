@@ -160,7 +160,6 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection:'column',
     backgroundColor: '#eee',
-    alignItems: 'left',
     justifyContent: 'left',
     textAlign:'left',
     marginTop:20,

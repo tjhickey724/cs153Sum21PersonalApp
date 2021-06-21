@@ -11,6 +11,8 @@ import SpeedConverter0 from './components/SpeedConverter0'
 
 import TipScreen from './components/TipScreen'
 
+import CameraDemo from './components/CameraDemo'
+
 import ListDemoScreen from './components/ListDemoScreen'
 
 
@@ -41,6 +43,8 @@ const MyStack = () => {
 
         <Stack.Screen name="listscreen" component={ListDemoScreen} />
 
+        <Stack.Screen name="camerademo" component={CameraDemo} />
+
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -49,7 +53,7 @@ const MyStack = () => {
 // Here is a homescreen with some navigation ...
 const HomeScreen = ({ navigation }) => {
   return (
-    <View style={{flexDirection:'row'}}>
+    <View style={{flex:1}}>
       <Button
         title="Go to Tim's profile"
         onPress={() =>
@@ -90,6 +94,14 @@ const HomeScreen = ({ navigation }) => {
         color="blue"
         onPress={() =>
           navigation.navigate('listscreen')
+        }
+      />
+
+      <Button
+        title="Go to Camera Demo"
+        color="blue"
+        onPress={() =>
+          navigation.navigate('camerademo')
         }
       />
 
