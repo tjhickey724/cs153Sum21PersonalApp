@@ -1,6 +1,8 @@
 import React from 'react';
 import L06 from './L06'
 import CameraDemo0 from './components/CameraDemo0'
+import CounterDemo from './components/CounterDemo'
+import ContextDemo from './components/ContextDemo'
 
 /*
   Demo App for CS153 Sum21
@@ -9,6 +11,6 @@ import CameraDemo0 from './components/CameraDemo0'
 */
 export default function App() {
     return (
-          <L06 />
+          <ContextDemo />
 );
 }
