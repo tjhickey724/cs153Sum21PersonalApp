@@ -4,6 +4,7 @@ import CameraDemo0 from './components/CameraDemo0'
 import CounterDemo from './components/CounterDemo'
 import ContextDemo from './components/ContextDemo'
 import Pomodoros from './components/Pomodoros'
+import CloudStore from './components/CloudStore'
 
 /*
   Demo App for CS153 Sum21
@@ -12,6 +13,6 @@ import Pomodoros from './components/Pomodoros'
 */
 export default function App() {
     return (
-          <Pomodoros />
+          <CloudStore />
 );
 }

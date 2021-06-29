@@ -64,7 +64,7 @@ const Pomodoros = (props) => {
   const renderPomodoro = ({item}) => {
     return (
       <View style={styles.pomodoro}>
-           <Text>When: {item.dateTime} by </Text>
+           <Text>When: {item.dateTime} </Text>
            <Text>Goal: {item.goal} </Text>
            <Text>Result: {item.result} </Text>
       </View>
